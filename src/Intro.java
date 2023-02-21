@@ -15,7 +15,8 @@ public class Intro {
 		
 		System.out.println(title);
 		System.out.println(url);
-		driver.quit();
+		//driver.quit();
+		driver.close();
 		
 	}
 }
